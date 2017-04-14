@@ -1,6 +1,6 @@
 // function forLoop(array){
 //   for(let i = 0; i < 25; i++){
-//     if(i === 1){
+//     if(i == 1){
 //       array.push('I am 1 strange loop.');
 //     } else{
 //       array.push(`I am ${i} strange loops.`);
@@ -8,8 +8,8 @@
 //         return array;
 //   }
 // }
-//This should work according to learn.co assistants. Not sure
-// why it isn't working. Might have to skip.
+//This should work according to learn.co assistants. Reloaded
+
 
 function forLoop(array){
   for(let i = 0; i < 25; i ++){
@@ -18,7 +18,9 @@ function forLoop(array){
       } else {
          array.push(`I am ${i} strange loops`);
       }
+
   }
+    return array;
 }
 
 function maybeTrue() {
